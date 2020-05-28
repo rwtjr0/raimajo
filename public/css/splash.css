@@ -1,0 +1,36 @@
+body {
+    font-family: Lato;
+    background-image: url("../resources/abstract1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+
+#content {
+    text-align: center;
+    padding-top: 25%; 
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr {
+    border: 0;
+    width: 400px;
+    max-width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3em;
+}
+
+li {
+    font-size: 2em;
+}
